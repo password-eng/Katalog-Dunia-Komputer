@@ -28,7 +28,7 @@ Note: If you host this on a webserver, you can later point image URLs to your se
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Katalog Toko Laptop - Demo</title>
+  <title>Dunia Komputer Tulis - Demo</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
   <style>
     :root{--bg:#0f0f10;--card:#111216;--accent:#cda14b;--muted:#bdbdbd;--glass: rgba(255,255,255,0.03)}
@@ -95,7 +95,7 @@ Note: If you host this on a webserver, you can later point image URLs to your se
         <div class="brand">
           <img src="/mnt/data/Screenshot 2025-11-25 233342.png" alt="logo" style="height:48px;border-radius:6px;object-fit:cover;margin-right:8px">
           <div>
-            <h1>TokoLaptop.id</h1>
+            <h1>DuniaKomputerTulis.id</h1>
             <div style="font-size:12px;color:#ddd">Laptop & Desktop — Katalog Online</div>
           </div>
         </div>
@@ -111,10 +111,15 @@ Note: If you host this on a webserver, you can later point image URLs to your se
           <p>Promo Black Friday style (contoh) — perlihatkan produk unggulan dan kategori brand di bawah.</p>
           <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
             <div class="brand-chip active" data-brand="all">Semua Brand</div>
-            <div class="brand-chip" data-brand="MSI">MSI</div>
-            <div class="brand-chip" data-brand="ASUS">ASUS</div>
-            <div class="brand-chip" data-brand="Lenovo">Lenovo</div>
+            <div class="brand-chip" data-brand="MSI">ASUS</div>
+            <div class="brand-chip" data-brand="MSI">Lenovo</div>
+            <div class="brand-chip" data-brand="MSI">Apple</div>
+            <div class="brand-chip" data-brand="ASUS">MSI</div>
+            <div class="brand-chip" data-brand="Lenovo">DEEL</div>
             <div class="brand-chip" data-brand="Acer">Acer</div>
+            <div class="brand-chip" data-brand="MSI">HP</div>
+            <div class="brand-chip" data-brand="MSI">ZYREX</div>
+            <div class="brand-chip" data-brand="MSI">AXIO</div>
           </div>
         </div>
         <div class="right">
@@ -130,6 +135,7 @@ Note: If you host this on a webserver, you can later point image URLs to your se
       <aside>
         <div class="aside-section">
           <h4>Filter Harga</h4>
+          <div class="filter-item"><span>Di bawah 5 juta</span><span><input type="radio" name="price" value="<5000000"></span></div>
           <div class="filter-item"><span>Di bawah 10 juta</span><span><input type="radio" name="price" value="<10000000"></span></div>
           <div class="filter-item"><span>10 - 20 juta</span><span><input type="radio" name="price" value="10000000-20000000"></span></div>
           <div class="filter-item"><span>Di atas 20 juta</span><span><input type="radio" name="price" value=">20000000"></span></div>
@@ -139,8 +145,8 @@ Note: If you host this on a webserver, you can later point image URLs to your se
         <div class="aside-section">
           <h4>Contact Person</h4>
           <p>Hub via WhatsApp untuk order cepat:</p>
-          <p id="cp-name" style="font-weight:700">Nama: Deni</p>
-          <p id="cp-phone">WA: +62 812-3456-7890</p>
+          <p id="cp-name" style="font-weight:700">Nama: Mimin DK</p>
+          <p id="cp-phone">WA: +62 819-9112-2334</p>
           <a id="wa-link" class="btn" href="#" target="_blank">Chat WA Sekarang</a>
         </div>
 
@@ -164,7 +170,7 @@ Note: If you host this on a webserver, you can later point image URLs to your se
     </div>
 
     <footer>
-      <div>© <span id="year"></span> TokoLaptop.id — Katalog & Penjualan Online</div>
+      <div>© <span id="year"></span> DuniaKomputerTulis.id — Katalog & Penjualan Online</div>
     </footer>
   </main>
 
@@ -240,8 +246,8 @@ Note: If you host this on a webserver, you can later point image URLs to your se
 
   <script>
     // ========== CUSTOMIZE THIS ===========
-    const WA_NUMBER = '6281234567890'; // change to your WA number (no +)
-    const CP_NAME = 'Deni';
+    const WA_NUMBER = '6281991122334'; // change to your WA number (no +)
+    const CP_NAME = 'Mimin DK';
     const INITIAL_SALES = 10; // display sales per month
     // ======================================
 
